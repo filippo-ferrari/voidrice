@@ -1,0 +1,21 @@
+#!/bin/bash
+
+    # Check the status of the Bluetooth
+    bluetooth_status=$(bluetoothctl show | awk '/Powered/ {print $2}')
+    connected_devices=$(bluetoothctl info | grep -iE 'Connected: yes')
+
+    # Set the icon based on Bluetooth status
+    if [ "$bluetooth_status" == "yes" ] && [ ! -z "$connected_devices" ]; then
+        # Bluetooth is on and connected to a device 
+        icon=" "
+    elif [ "$bluetooth_status" == "yes" ]; then
+        # Bluetooth is on but not connected to a device
+        icon=""
+    else
+        # Bluetooth is off
+        icon="❌"
+    fi
+
+    # Print the icon
+    echo "$icon"
+
