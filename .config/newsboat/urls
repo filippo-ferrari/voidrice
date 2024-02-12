@@ -1,10 +1,67 @@
-https://lukesmith.xyz/rss.xml
-https://videos.lukesmith.xyz/feeds/videos.xml?videoChannelId=2 "~Luke Smith (Videos)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)"
-https://lindypress.net/rss
-https://notrelated.xyz/rss
-https://landchad.net/rss.xml
-https://based.cooking/index.xml
-https://artixlinux.org/feed.php "tech"
-https://www.archlinux.org/feeds/news/ "tech"
-https://github.com/LukeSmithxyz/voidrice/commits/master.atom "~LARBS dotfiles"
+# OLD STUFF, STILL USEFUL
+#https://lukesmith.xyz/rss.xml
+#https://videos.lukesmith.xyz/feeds/videos.xml?videoChannelId=2 "~Luke Smith (Videos)"
+#https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)"
+#https://lindypress.net/rss
+#https://notrelated.xyz/rss
+#https://landchad.net/rss.xml
+#https://based.cooking/index.xml
+#https://artixlinux.org/feed.php "tech"
+#https://www.archlinux.org/feeds/news/ "tech"
+#https://github.com/LukeSmithxyz/voidrice/commits/master.atom "~LARBS dotfiles"
+#https://events.ccc.de/feed "Chaos Communication Camp feed"
+
+# Free software
+https://www.fsf.org/static/fsforg/rss/news.xml "Free software"
+https://www.fsf.org/static/fsforg/rss/events.xml "Free software"
+https://www.fsf.org/static/fsforg/rss/blogs.xml "Free software" "~FSF Blogs"
+http://www.gnu.org/rss/whatsnew.rss "Free software"
+https://fosdem.org/rss.xml "Free software"
+https://opensource.com/feed "Free software"
+
+# Hacking
+https://events.ccc.de/feed "Free software"
+https://events.ccc.de/en/feed "Free software"
+https://www.ccc.de/en/rss/updates.xml "Technology"
+https://n-o-d-e.net/rss/rss.xml "Technology"
+https://www.arkiwi.org/path64/aGFja21lZXRpbmcvSGFja2l0XzIwMjI/rss "Hacking"
+https://www.autistici.org/underscore/atom.xml "Hacking"
+
+# Technology
+https://lukesmith.xyz/rss.xml "Technology"
+https://www.archlinux.org/feeds/news/ "Technology"
+https://www.dday.it/rss "Technology" "~DDay"
+https://www.phoronix.com/rss.php "Technology"
+https://www.pine64.org/feed/ "Technology"
+https://tails.boum.org/news/index.en.rss "Technology" "~Tails News"
+https://www.eff.org/rss/updates.xml "Technology" "~EFF Updates"
+https://act.eff.org/action.atom "Technology"
+https://www.eff.org/about/opportunities/jobs/feed "Technology"
+https://blog.rust-lang.org/feed.xml "Technology"
+https://blog.rust-lang.org/inside-rust/feed.xml "Technology"
+https://feeds.feedblitz.com/baeldung&x=1 "Technology"
+https://feeds.feedblitz.com/baeldung/linux "Technology"
+https://feeds.feedblitz.com/baeldung/cs&x=1 "Technology"
+https://kentcdodds.com/blog/rss.xml "Technology"
+https://libreboot.org/feed.xml "Technology"
+
+# Italy
+https://www.agi.it/cronaca/rss "Italy" "~Agi (Cronaca)"
+https://www.agi.it/economia/rss "Italy" "~Agi (Economia)"
+https://www.agi.it/politica/rss "Italy" "~Agi (Politica)"
+
+# Videos
+https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt&filter=local "Videos" "PeerTube" "~Luke Smith (PeerTube)"
+
+# Others
+https://cavallette.noblogs.org/feed "Others" "~Cavallette"
+https://liberioltreleillusioni.it/rss-feed?type=9818 "Others" "~Liberi Oltre le Illusioni"
+https://notrelated.xyz/rss "Others"
+
+# Ebay
+https://rssbay.net/feed?keyword=thinkpad+t400&globalId=EBAY-EU&location=IT&auction=1&buyitnow=1&condition=-&time-frame-type=-&time-frame-value=- "Thinkpad"
+https://rssbay.net/feed?keyword=thinkpad+x220&globalId=EBAY-EU&location=IT&auction=1&buyitnow=1&condition=-&time-frame-type=-&time-frame-value=- "Thinkpad"
+https://rssbay.net/feed?keyword=thinkpad+x200&globalId=EBAY-EU&location=IT&auction=1&buyitnow=1&condition=-&time-frame-type=-&time-frame-value=- "Thinkpad"
+
+# too much spam my dude 
+#$https://stallman.org/rss/rss.xml "Others"
