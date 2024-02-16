@@ -1,0 +1,9 @@
+#!/bin/bash
+# xinput disable "Synaptics TM3145-005"
+value=$(xinput --list-props "Synaptics TM3145-005" | head -n 2 | tail -c 2)
+if [[ $value -eq 0 ]]
+then
+    xinput enable "Synaptics TM3145-005"
+else
+    xinput disable "Synaptics TM3145-005"
+fi
